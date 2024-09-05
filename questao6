@@ -1,0 +1,19 @@
+6-
+funcao inicio() {
+   real minutos_por_dia = 5
+   real dias_por_semana = 6
+   real semanas_por_ano = 52
+
+ escreva ("A quantidade de minutos lidos na semana são: ",minutos_por_dia * dias_por_semana) escreva ("\n")
+
+ escreva ("A quantidade de minutos lidos no ano são: ", minutos_por_dia * dias_por_semana * semanas_por_ano) escreva ("\n")
+
+ //Agora converte os minutos por hora 
+
+  escreva ("A quantidade de horas dedicadas ao livro por ano são: ", minutos_por_dia * dias_por_semana * semanas_por_ano / 60, "horas.")
+
+
+
+
+  }
+}
