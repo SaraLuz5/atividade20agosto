@@ -1,0 +1,16 @@
+8-
+funcao inicio() {
+     //velocidade do link em mbps 1 byte = 8 bits, converte o tamanho do arquivo pra megabits multiplicando o tamanho em megabytes por 8
+     real tamanho_arquivo
+     real velocidade_link
+     real tempo_download
+
+     escreva ("Digite o tamanho do arquivo em MB:")
+     leia (tamanho_arquivo)
+     escreva ("Digite a velocidade do link em Mbps:")
+     leia (velocidade_link)
+
+     tempo_download = (tamanho_arquivo * 8) / velocidade_link / 60
+     escreva ("O tempo aproximado do download é: ", tempo_download, " minutos. \n")
+  }
+}
