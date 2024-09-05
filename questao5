@@ -1,0 +1,10 @@
+programa {
+5-
+funcao inicio() {
+    
+    escreva ("a- Considerando os valores dados, a quantidade mínima de fios a ser comprado seria ", 11.5 * 6.3 ," metros para que o fio passase pelo arredor da casa. \n")
+    
+    escreva("b- A quantidade de fios necessária para passar os fios pelo telhado da casa seria raiz de ")
+    escreva (11.5 * 11.5 + 6.3 * 6.3, " que dá 13,113 metros")
+
+  }
