@@ -1,0 +1,27 @@
+9-
+ funcao inicio() {
+    real largura, altura
+    real metros_quadrados
+    real valor_da_tinta = 480 // cada lata tem esse preço
+    real capacidade_da_lata = 18 // cada lata tem 18 litros
+    real valor_a_ser_pago
+    real quantidade_de_tinta , latas_necessarias
+    escreva ("Qual o tamanho (em metros quadrados) da área a ser pintada? \n")
+    leia (largura,altura)
+
+    metros_quadrados = (largura * altura)
+
+    quantidade_de_tinta = ( metros_quadrados / 3)   
+
+    latas_necessarias = (quantidade_de_tinta / capacidade_da_lata)
+
+    valor_a_ser_pago =(latas_necessarias * valor_da_tinta)
+
+    escreva ("Quantidade de latas necessárias: ", latas_necessarias, " \n")
+    escreva ("Preço total: ", valor_a_ser_pago, " \n")
+
+
+
+
+  }
+}
