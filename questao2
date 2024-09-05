@@ -1,0 +1,34 @@
+2-
+funcao inicio() {
+    real ano_mercurio
+    ano_mercurio = 0.2408467 // 0.011375393673225584 dias = 87.9090455 segundos
+   
+    real ano_terra = 1 // 1 ano = 365,25 dias = 31557600 segundos
+    real idade_em_dias
+    real idade_em_segundos
+    real idade_em_mercurio
+   
+    real calculo_dos_planetas
+    calculo_dos_planetas = 1 / 0.2408467
+      
+   // idade_em_anos = (977000000 /segundos_do_ano) = 30 anos 
+   //escreva( Se sua idade é de 977 milhoes de segundos, você terá: ", idade_em_anos, " anos. \n")
+    //idade_em_dias = (calculo_dos_planetas / 365)
+    //escreva ("Os dias em mercurio são: ",idade_em_dias) 
+    //escreva("\n")
+    
+    //idade_em_segundos = (1 / 0.011375393673225584)
+    //escreva("Os segundos em mercurio são: ",idade_em_segundos)
+    //escreva("\n")
+    idade_em_mercurio = 977000000/87.9090455
+    escreva("a- A idade em mercurio seria: ",idade_em_mercurio)
+    escreva("\n")
+    real idade_da_pessoa
+    idade_da_pessoa = 21
+    real idade_em_jupiter 
+    idade_em_jupiter = 11.862615
+    real idade_final
+    idade_final = (21 / idade_em_jupiter)
+    escreva("b- A idade da pessoa em júpiter seria: ", idade_final)
+    
+  }
