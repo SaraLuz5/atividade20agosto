@@ -1,0 +1,17 @@
+4-
+funcao inicio() {
+  real a,b,c
+ a = 300
+ b = 400
+ c = 500
+ escreva(300 / 45) escreva("\n")
+ escreva(300%45) escreva("\n")
+ escreva ("Com 3m será possível ter 6 pedaços de 45 cm, e um com 30cm. \n")
+ escreva(400/ 45) escreva("\n")
+escreva(400%45) escreva("\n")
+ escreva ("Com 4m será possível ter 8 pedaços de 45 cm, e um com 40cm. \n")
+ escreva(500/ 45) escreva("\n")
+escreva(500%45) escreva("\n")
+ escreva ("Com 5m será possível ter 11 pedaços de 45 cm, e um com 5cm. \n")
+  }
+}
