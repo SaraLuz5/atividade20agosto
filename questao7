@@ -1,0 +1,12 @@
+7-
+funcao inicio() {
+   real idade
+
+    escreva ("Qual sua idade? ")
+    leia (idade)
+
+   escreva ((idade + 1 )/ 2)
+
+
+  }
+}
